@@ -1,5 +1,11 @@
-// Member 4 — Prasanna
-// Responsibility: Request validation and camera-kind search functionality
+// ==============================================================================
+// Member 4: Validation, Search & Special Requirements
+// Files Owned: validation.js, summary.js
+// Key Responsibilities (validation.js):
+// 1. Validate request payloads for POST /cameras and PUT /cameras/:cameraId.
+// 2. Reject missing or empty 'name' and 'kind' fields with HTTP 400 Bad Request.
+// 3. Implement safe parameterized camera search by kind (?kind=...) to prevent SQL injection.
+// ==============================================================================
 
 const { getDB } = require('./database/database');
 

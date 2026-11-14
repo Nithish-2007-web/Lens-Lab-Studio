@@ -1,5 +1,13 @@
-// Member 2 — Irfan
-// Responsibility: SQLite database connection, table creation, and queries
+// ==============================================================================
+// Member 2: Database Management
+// Files Owned: database/database.js
+// Key Responsibilities:
+// 1. Establish asynchronous SQLite database connection (lensLab.db).
+// 2. Enable referential integrity with PRAGMA foreign_keys = ON.
+// 3. Define relational schemas: photographers, cameras, and rentals tables.
+// 4. Ensure cameras table is initialized cleanly without pre-seeded records (Twist Test 3).
+// 5. Provide singleton getDB() accessor for endpoint handlers.
+// ==============================================================================
 
 const path = require('path');
 const { open } = require('sqlite');

@@ -1,5 +1,13 @@
-// Member 3 — Dinesh
-// Responsibility: REST API endpoint implementations for photographers, cameras, and rentals
+// ==============================================================================
+// Member 3: REST API Development
+// Files Owned: endpoints.js
+// Key Responsibilities:
+// 1. Implement Camera CRUD endpoints (POST, GET, GET by ID, PUT, DELETE).
+// 2. Implement Photographer endpoints (POST registration, GET list).
+// 3. Implement Rental booking endpoint with foreign key validation (POST /rentals).
+// 4. Implement relational SQL INNER JOIN query (GET /rentals) returning human-readable details.
+// 5. Catch foreign key constraint violations and return appropriate HTTP 409 Conflict.
+// ==============================================================================
 
 const { getDB } = require('./database/database');
 const { searchCameras } = require('./validation');

@@ -2,7 +2,7 @@
   "info": {
     "_postman_id": "lenslab-studio-yg-cse2e-g05",
     "name": "LensLab Studio API Testing",
-    "description": "Postman API test collection for LensLab Studio - Backend Development Fundamentals (Modules 1-3). Group YG-CSE2E-G05.",
+    "description": "Comprehensive Postman API test collection for LensLab Studio (Camera Rental Management System). Maintained by Member 5 (API Testing & Documentation). Covers Twist Tests, Photographer Management, Camera CRUD, Search, Rental JOIN, Validation, and HTTP Error Handling.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "variable": [

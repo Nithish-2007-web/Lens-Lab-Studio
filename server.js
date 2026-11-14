@@ -1,5 +1,13 @@
-// Member 1 — Kishore
-// Responsibility: Express server setup, middleware configuration, and server startup
+// ==============================================================================
+// Member 1: Backend Server & Routing
+// Files Owned: server.js, routes.js
+// Key Responsibilities:
+// 1. Initialize Express application instance and configure PORT.
+// 2. Register express.json() middleware to parse JSON request bodies.
+// 3. Mount modular API router (routes.js).
+// 4. Implement global 404 handler for unknown routes.
+// 5. Ensure SQLite database is initialized before Express server begins listening.
+// ==============================================================================
 
 const express = require('express');
 const { initializeDB } = require('./database/database');

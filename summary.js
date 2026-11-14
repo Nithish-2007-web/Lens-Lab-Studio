@@ -1,5 +1,11 @@
-// Member 5 — Anshu
-// Responsibility: Special twist rule — Summary of cameras grouped by kind
+// ==============================================================================
+// Member 4: Validation, Search & Special Requirements
+// Files Owned: validation.js, summary.js
+// Key Responsibilities (summary.js):
+// 1. Implement GET /cameras/summary endpoint for inventory aggregation.
+// 2. Execute SQL GROUP BY query to aggregate camera inventory counts by kind directly in SQLite.
+// 3. Satisfy Special Twist requirements: return [] when empty, and [{ kind, count }] when populated.
+// ==============================================================================
 
 const { getDB } = require('./database/database');
 
